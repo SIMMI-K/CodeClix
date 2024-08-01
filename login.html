@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>CodeClix</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+     <!-- Header -->
+     <header>
+        <a href="index.html">
+            <h1 id="logo">CodeClix</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="">Movies</a></li>
+                <li><a href="">Teams</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+      <section class="row justify-content-center mt-5 text-white">
+        <div class="col-md-6 col-lg-4">
+          <h2 class="text-center">Login</h2>
+          <form>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                aria-describedby="username"
+                placeholder="Enter username"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="rememberMe" />
+              <label class="form-check-label" for="rememberMe"
+                >Remember me</label
+              >
+              <a class="ml-5" href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Login
+            </button>
+            <div class="text-center">
+              <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+        <!-- Footer -->
+        <footer id="footer">
+            <ul id="social-networks">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                    
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a> 
+                    
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </li>
+            </ul>
+    
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Font Awesome kit -->
+   <script src="https://kit.fontawesome.com/5233e53767.js" crossorigin="anonymous"></script>
+  </body>
+</html>
